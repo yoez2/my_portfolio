@@ -78,7 +78,7 @@ const Contact = () => {
               </p>
               
               <a 
-                href="mailto:your.email@example.com?subject=Hello!&body=Hi, I'd like to get in touch regarding..."
+                href="mailto:dawayoezer22@gmail.com?subject=Hello!&body=Hi, I'd like to get in touch regarding..."
                 className="inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors duration-200 hover:scale-105 transform"
               >
                 Send Email

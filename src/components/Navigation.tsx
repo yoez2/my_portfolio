@@ -21,9 +21,9 @@ const Navigation = () => {
   useEffect(() => {
     if (portfolioRef.current && window.anime) {
       const text = portfolioRef.current.textContent || '';
-      portfolioRef.current.innerHTML = text.split('').map(char => 
-        `<span class="inline-block">${char}</span>`
-      ).join('');
+      portfolioRef.current.innerHTML = text.split(' ').map(word => 
+        `<span class="inline-block">${word}</span>`
+      ).join(' ');
 
       window.anime({
         targets: portfolioRef.current.querySelectorAll('span'),
@@ -54,7 +54,7 @@ const Navigation = () => {
     }`}>
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex justify-between items-center h-16">
-          <div ref={portfolioRef} className="font-bold text-4xl text-black-800 font-permanent-marker">Dawa Yoezer Dorji</div>
+          <div ref={portfolioRef} className="font-bold text-3xl text-black-800 font-permanent-marker">Dawa Yoezer Dorji</div>
           
           <div className="hidden md:flex space-x-8">
             {['home', 'about', 'projects', 'skills', 'contact'].map((item) => (

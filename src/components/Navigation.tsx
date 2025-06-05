@@ -54,7 +54,7 @@ const Navigation = () => {
     }`}>
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex justify-between items-center h-16">
-          <div ref={portfolioRef} className="font-bold text-4xl text-gray-800">Dawa Yoezer Dorji</div>
+          <div ref={portfolioRef} className="font-bold text-4xl text-black-800 font-permanent-marker">Dawa Yoezer Dorji</div>
           
           <div className="hidden md:flex space-x-8">
             {['home', 'about', 'projects', 'skills', 'contact'].map((item) => (

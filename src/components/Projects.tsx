@@ -5,15 +5,15 @@ const Projects = () => {
   const projects = [
     {
       title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with React, Node.js, and MySQL. Features include user authentication, shopping cart, and payment integration.",
-      tech: ["React", "Node.js", "MySQL", "Express"],
-      liveLink: "https://example.com",
+      description: <i><b>A frontend  e-commerce solution built with React, Vite, Tailwind CSS, and TypeScript and used formsubmit for submitting form. Features include displaying products, location.</b></i>,
+      tech: ["React", "vite"],
+      liveLink: "https://damchena.vercel.app/",
       githubLink: "https://github.com/yourusername/project1",
       image: "🛒"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, built using Angular and NestJS with a modern UI/UX design.",
+      title: "Taxi Booking App",
+      description: <i><b>A collaborative task management application with real-time updates, built using Angular and NestJS with a modern UI/UX design.</b></i>,
       tech: ["Angular", "NestJS", "TypeScript", "WebSockets"],
       liveLink: "https://example.com",
       githubLink: "https://github.com/yourusername/project2",
@@ -21,7 +21,7 @@ const Projects = () => {
     },
     {
       title: "Weather Dashboard",
-      description: "A responsive weather dashboard that displays current conditions and forecasts using external APIs, built with vanilla JavaScript and modern CSS.",
+      description: <i><b>A responsive weather dashboard that displays current conditions and forecasts using external APIs, built with vanilla JavaScript and modern CSS.</b></i>,
       tech: ["JavaScript", "CSS3", "API Integration", "Responsive Design"],
       liveLink: "https://example.com",
       githubLink: "https://github.com/yourusername/project3",
@@ -35,9 +35,9 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">My Projects</h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-4"></div>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+         <i><b><p className="text-gray-600 max-w-2xl mx-auto">
             Here are some of the projects I've worked on. Each one represents a step in my learning journey.
-          </p>
+          </p></b></i>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

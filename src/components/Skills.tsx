@@ -28,7 +28,7 @@ const Skills = () => {
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Skills & Technologies</h2>
           <div className="w-24 h-1 bg-blue-600 mx-auto mb-4"></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Here's my current tech stack and proficiency levels. I'm always learning and improving!
+            <i><b>Here's my current tech stack and proficiency levels. I'm always learning and improving!</b></i>
           </p>
         </div>
 

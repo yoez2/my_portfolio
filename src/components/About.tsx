@@ -10,13 +10,13 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-gray-800">
-              Hello! I'm Dawa a passionate web developer
+              <i>Hello! I'm Dawa a passionate web developer</i>
             </h3>
             <p className="text-gray-600 leading-relaxed">
-            I hold a Diploma in Information and Communication Technology (ICT) and I'm currently building my skills as a web developer. I'm passionate about creating clean, functional, and user-friendly websites and applications that help solve real-world problems.
+           <i> <b>I hold a Diploma in Information and Communication Technology (ICT) and I'm currently building my skills as a web developer. I'm passionate about creating clean, functional, and user-friendly websites and applications that help solve real-world problems.</b></i>
             </p>
             <p className="text-gray-600 leading-relaxed">
-            My journey started with a good foundation in ICT, and now I'm focused on learning and applying modern web technologies like HTML, CSS, JavaScript, React, Angular, NestJS, and MySQL. I enjoy building full-stack projects and constantly challenge myself to grow through hands-on learning.
+            <i><b>My journey started with a good foundation in ICT, and now I'm focused on learning and applying modern web technologies like HTML, CSS, JavaScript, React, Angular, NestJS, and MySQL. I enjoy building full-stack projects and constantly challenge myself to grow through hands-on learning.</b></i>
             </p>
             <div className="flex flex-wrap gap-4">
               <div className="bg-blue-50 px-4 py-2 rounded-lg">

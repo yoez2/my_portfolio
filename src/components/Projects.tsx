@@ -11,13 +11,13 @@ const Projects = () => {
       githubLink: "https://github.com/yourusername/project1",
       image: "🛒"
     },
-    {
+    { 
       title: "Taxi Booking App",
       description: <i><b>A collaborative task management application with real-time updates, built using Angular and NestJS with a modern UI/UX design.</b></i>,
       tech: ["Angular", "NestJS", "TypeScript", "WebSockets"],
       liveLink: "https://example.com",
-      githubLink: "https://github.com/yourusername/project2",
-      image: "📋"
+      githubLink: "https://github.com/yoez2/taxi_frontend.git",
+      image: "🚕"
     },
     {
       title: "Weather Dashboard",

@@ -1,15 +1,14 @@
-
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-[url('/hero-bg.JPEG')] bg-cover bg-center bg-no-repeat bg-fixed">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <div className="animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6">
-            Hi, I'm <span className="text-blue-600">Your Name</span>
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
+          {/* <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6">
+            Hi, I'm <span className="text-blue-600">Dawa Yoezer Dorji</span>
+          </h1> */}
+          {/* <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
             A passionate web developer crafting digital experiences with modern technologies
-          </p>
+          </p> */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}

@@ -1,8 +1,14 @@
+import { useState, useEffect, useRef } from 'react';
 
-import { useState, useEffect } from 'react';
+declare global {
+  interface Window {
+    anime: any;
+  }
+}
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const portfolioRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -10,6 +16,31 @@ const Navigation = () => {
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    if (portfolioRef.current && window.anime) {
+      const text = portfolioRef.current.textContent || '';
+      portfolioRef.current.innerHTML = text.split('').map(char => 
+        `<span class="inline-block">${char}</span>`
+      ).join('');
+
+      window.anime({
+        targets: portfolioRef.current.querySelectorAll('span'),
+        y: [
+          { value: '-2.75rem', duration: 600, easing: 'easeOutExpo' },
+          { value: 0, duration: 800, easing: 'easeOutBounce', delay: 100 }
+        ],
+        rotate: {
+          value: '-1turn',
+          delay: 0
+        },
+        delay: (_, i) => i * 50,
+        easing: 'easeInOutCirc',
+        loopDelay: 1000,
+        loop: true
+      });
+    }
   }, []);
 
   const scrollToSection = (id: string) => {
@@ -23,7 +54,7 @@ const Navigation = () => {
     }`}>
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex justify-between items-center h-16">
-          <div className="font-bold text-xl text-gray-800">Portfolio</div>
+          <div ref={portfolioRef} className="font-bold text-4xl text-gray-800">Dawa Yoezer Dorji</div>
           
           <div className="hidden md:flex space-x-8">
             {['home', 'about', 'projects', 'skills', 'contact'].map((item) => (

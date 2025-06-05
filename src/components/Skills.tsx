@@ -5,9 +5,9 @@ const Skills = () => {
       title: "Frontend",
       skills: [
         { name: "HTML5", level: 90, color: "bg-orange-500" },
-        { name: "CSS3", level: 85, color: "bg-blue-500" },
+        { name: "CSS3", level: 50, color: "bg-blue-500" },
         { name: "JavaScript", level: 80, color: "bg-yellow-500" },
-        { name: "React", level: 75, color: "bg-cyan-500" },
+        { name: "TypeScript", level: 65, color: "bg-cyan-500" },
         { name: "Angular", level: 70, color: "bg-red-500" }
       ]
     },
@@ -59,7 +59,7 @@ const Skills = () => {
         <div className="mt-16 text-center">
           <h3 className="text-xl font-semibold text-gray-800 mb-6">Currently Learning</h3>
           <div className="flex flex-wrap justify-center gap-4">
-            {['TypeScript', 'Next.js', 'MongoDB', 'Docker', 'AWS'].map((tech, index) => (
+            {['React', 'Express.js', 'MongoDB', 'Docker', 'AWS'].map((tech, index) => (
               <span 
                 key={index}
                 className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-full font-medium hover:scale-105 transition-transform duration-200"

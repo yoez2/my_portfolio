@@ -1,4 +1,3 @@
-
 const About = () => {
   return (
     <section id="about" className="py-20 bg-white">
@@ -11,17 +10,13 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-gray-800">
-              Hello! I'm a passionate web developer
+              Hello! I'm Dawa a passionate web developer
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              I hold a Diploma in Information and Communication Technology (ICT) and I'm currently 
-              on an exciting journey learning web development. My passion lies in creating beautiful, 
-              functional, and user-friendly web applications that solve real-world problems.
+            I hold a Diploma in Information and Communication Technology (ICT) and I'm currently building my skills as a web developer. I'm passionate about creating clean, functional, and user-friendly websites and applications that help solve real-world problems.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              With a strong foundation in ICT and growing expertise in modern web technologies, 
-              I'm constantly exploring new frameworks and tools to stay current with industry trends. 
-              I believe in writing clean, maintainable code and creating experiences that users love.
+            My journey started with a good foundation in ICT, and now I'm focused on learning and applying modern web technologies like HTML, CSS, JavaScript, React, Angular, NestJS, and MySQL. I enjoy building full-stack projects and constantly challenge myself to grow through hands-on learning.
             </p>
             <div className="flex flex-wrap gap-4">
               <div className="bg-blue-50 px-4 py-2 rounded-lg">
@@ -38,9 +33,7 @@ const About = () => {
           
           <div className="flex justify-center">
             <div className="w-80 h-80 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center shadow-2xl hover:scale-105 transition-transform duration-300">
-              <div className="w-72 h-72 bg-white rounded-full flex items-center justify-center">
-                <span className="text-6xl">👨‍💻</span>
-              </div>
+              <img src="/my-photo.jpeg" alt="Dawa Yoezer Dorji" className="w-72 h-72 rounded-full object-cover" />
             </div>
           </div>
         </div>

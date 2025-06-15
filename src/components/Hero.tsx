@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-[url('/hero3-bg.JPEG')] bg-[size:99%] bg-center bg-no-repeat bg-fixed">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-[url('/hero-bg.JPEG')] bg-[size:49%] bg-center bg-no-repeat bg-fixed">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <div className="animate-fade-in">
           {/* <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6">

@@ -47,7 +47,7 @@ const About = () => {
             <ul className="list-disc list-inside text-gray-600 space-y-2">
               <b><i><li>Managed digital marketing campaigns, including social media, content creation, and branding</li></i></b>
               <b><i><li>Developed and executed marketing strategies to attract international and local travelers</li></i></b>
-              <b><i><li>Enhanced the agency's online presence through SEO, website management, and promotional content</li></i></b>
+              <b><i><li>Enhanced the agency's online presences through SEO, website management, and promotional content</li></i></b>
             </ul>
           </div>
         </div>

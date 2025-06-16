@@ -40,12 +40,12 @@ const About = () => {
 
         {/* Work Experience Section */}
         <div className="mt-16">
-          <i><h3 className="text-2xl font-semibold text-gray-800 mb-6">Work Experience</h3></i>
+          <i><h3 className="text-2xl font-semibold text-gray-800 mb-6">Work Experience </h3></i>
           <div className="bg-gray-50 p-6 rounded-lg shadow-md">
             <i><h4 className="text-xl font-semibold text-gray-800 mb-2">Media & Marketing – Lonely Bhutan Tours & Treks</h4></i>
-           <b><i><p className="text-gray-600 mb-2">Paro, Bhutan</p></i></b>
+            <b><i><p className="text-gray-600 mb-2">Paro, Bhutan</p></i></b>
             <ul className="list-disc list-inside text-gray-600 space-y-2">
-             <b><i><li>Managed digital marketing campaigns, including social media, content creation, and branding</li></i></b>
+              <b><i><li>Managed digital marketing campaigns, including social media, content creation, and branding</li></i></b>
               <b><i><li>Developed and executed marketing strategies to attract international and local travelers</li></i></b>
               <b><i><li>Enhanced the agency's online presence through SEO, website management, and promotional content</li></i></b>
             </ul>
